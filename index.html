@@ -1,13 +1,3 @@
-<<<<<<< HEAD
-```html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Student Registration</title>
-=======
 <!DOCTYPE html>
 <html lang="en">
 
@@ -17,96 +7,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Event Management</title>
->>>>>>> e56d54a676ae70d696fcacf74b41b5a190a97e11
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="style.css">
-<<<<<<< HEAD
-=======
 
->>>>>>> e56d54a676ae70d696fcacf74b41b5a190a97e11
 </head>
 
 <body>
 
-<<<<<<< HEAD
-    <div class="container py-5">
-
-        <div class="registration-card">
-
-            <!-- Heading -->
-            <div class="text-center mb-4">
-                <div class="icon-circle">🎓</div>
-
-                <h1>Student Registration</h1>
-
-                <p>Create your student account</p>
-            </div>
-
-
-            <form id="studentForm">
-
-                <!-- First Name & Last Name -->
-                <div class="row">
-
-                    <div class="col-md-6 mb-3">
-                        <label>First Name</label>
-
-                        <input type="text"
-                               id="firstName"
-                               class="form-control"
-                               placeholder="Enter first name">
-
-                        <small id="firstNameError"></small>
-                    </div>
-
-
-                    <div class="col-md-6 mb-3">
-                        <label>Last Name</label>
-
-                        <input type="text"
-                               id="lastName"
-                               class="form-control"
-                               placeholder="Enter last name">
-
-                        <small id="lastNameError"></small>
-                    </div>
-
-                </div>
-
-
-                <!-- Email & Phone -->
-                <div class="row">
-
-                    <div class="col-md-6 mb-3">
-
-                        <label>Email Address</label>
-
-                        <input type="email"
-                               id="email"
-                               class="form-control"
-                               placeholder="Enter your email">
-
-                        <small id="emailError"></small>
-
-                    </div>
-
-
-                    <div class="col-md-6 mb-3">
-
-                        <label>Phone Number</label>
-
-                        <input type="text"
-                               id="phone"
-                               class="form-control"
-                               placeholder="Enter 10-digit number"
-                               maxlength="10">
-
-                        <small id="phoneError"></small>
-=======
     <!-- Navigation Bar -->
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -233,76 +144,12 @@
                             </button>
 
                         </div>
->>>>>>> e56d54a676ae70d696fcacf74b41b5a190a97e11
 
                     </div>
 
                 </div>
 
 
-<<<<<<< HEAD
-                <!-- Date of Birth -->
-                <div class="row">
-
-                    <div class="col-md-6 mb-3">
-
-                        <label>Date of Birth</label>
-
-                        <input type="date"
-                               id="dob"
-                               class="form-control">
-
-                        <small id="dobError"></small>
-
-                    </div>
-
-
-                    <!-- Gender -->
-                    <div class="col-md-6 mb-3">
-
-                        <label>Gender</label>
-
-                        <div class="gender-box">
-
-                            <div class="form-check form-check-inline">
-
-                                <input class="form-check-input"
-                                       type="radio"
-                                       name="gender"
-                                       value="Male">
-
-                                <label class="form-check-label">
-                                    Male
-                                </label>
-
-                            </div>
-
-
-                            <div class="form-check form-check-inline">
-
-                                <input class="form-check-input"
-                                       type="radio"
-                                       name="gender"
-                                       value="Female">
-
-                                <label class="form-check-label">
-                                    Female
-                                </label>
-
-                            </div>
-
-
-                            <div class="form-check form-check-inline">
-
-                                <input class="form-check-input"
-                                       type="radio"
-                                       name="gender"
-                                       value="Other">
-
-                                <label class="form-check-label">
-                                    Other
-                                </label>
-=======
                 <!-- Event 2 -->
 
                 <div class="col-md-4 mb-4 event-card">
@@ -504,171 +351,15 @@
                                 style="display: none;">
 
                                 Registration Successful! 🎉
->>>>>>> e56d54a676ae70d696fcacf74b41b5a190a97e11
 
                             </div>
 
                         </div>
 
-<<<<<<< HEAD
-                        <small id="genderError"></small>
-
-=======
->>>>>>> e56d54a676ae70d696fcacf74b41b5a190a97e11
                     </div>
 
                 </div>
 
-<<<<<<< HEAD
-
-                <!-- Course -->
-                <div class="mb-3">
-
-                    <label>Course</label>
-
-                    <select id="course" class="form-select">
-
-                        <option value="">Select your course</option>
-
-                        <option>B.Tech</option>
-                        <option>B.Sc</option>
-                        <option>BCA</option>
-                        <option>MCA</option>
-                        <option>MBA</option>
-
-                    </select>
-
-                    <small id="courseError"></small>
-
-                </div>
-
-
-                <!-- Department -->
-                <div class="mb-3">
-
-                    <label>Department</label>
-
-                    <select id="department" class="form-select">
-
-                        <option value="">Select your department</option>
-
-                        <option>Artificial Intelligence & Data Science</option>
-                        <option>Computer Science Engineering</option>
-                        <option>Information Technology</option>
-                        <option>Electronics & Communication</option>
-                        <option>Mechanical Engineering</option>
-
-                    </select>
-
-                    <small id="departmentError"></small>
-
-                </div>
-
-
-                <!-- Address -->
-                <div class="mb-3">
-
-                    <label>Address</label>
-
-                    <textarea id="address"
-                              class="form-control"
-                              rows="3"
-                              placeholder="Enter your address"></textarea>
-
-                    <small id="addressError"></small>
-
-                </div>
-
-
-                <!-- Password -->
-                <div class="row">
-
-                    <div class="col-md-6 mb-3">
-
-                        <label>Password</label>
-
-                        <input type="password"
-                               id="password"
-                               class="form-control"
-                               placeholder="Create password">
-
-                        <small id="passwordError"></small>
-
-                    </div>
-
-
-                    <div class="col-md-6 mb-3">
-
-                        <label>Confirm Password</label>
-
-                        <input type="password"
-                               id="confirmPassword"
-                               class="form-control"
-                               placeholder="Confirm password">
-
-                        <small id="confirmPasswordError"></small>
-
-                    </div>
-
-                </div>
-
-
-                <!-- Terms -->
-                <div class="form-check mb-4">
-
-                    <input class="form-check-input"
-                           type="checkbox"
-                           id="terms">
-
-                    <label class="form-check-label" for="terms">
-                        I agree to the terms and conditions
-                    </label>
-
-                    <small id="termsError"></small>
-
-                </div>
-
-
-                <!-- Buttons -->
-                <div class="text-center">
-
-                    <button type="submit" class="btn register-btn">
-                        Register Now
-                    </button>
-
-                    <button type="reset" class="btn reset-btn">
-                        Reset
-                    </button>
-
-                </div>
-
-
-                <!-- Success Message -->
-                <div id="successMessage">
-                    🎉 Registration Successful!
-                </div>
-
-            </form>
-
-        </div>
-
-    </div>
-
-
-    <!-- jQuery -->
-    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
-
-    <!-- Bootstrap JavaScript -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-
-    <!-- Custom JavaScript -->
-    <script src="script.js"></script>
-
-</body>
-</html>
-```
-
-=======
             </div>
 
         </div>
@@ -725,4 +416,3 @@
 </body>
 
 </html>
->>>>>>> e56d54a676ae70d696fcacf74b41b5a190a97e11
